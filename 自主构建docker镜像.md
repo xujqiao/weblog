@@ -1,5 +1,7 @@
 # 自主构建docker镜像
 
+[TOC]
+
 > 组里提倡docker化部署服务，由于公司内机器都是xxx，因此转到docker上本能拉取一段xxx的镜像。结果，xxx镜像居然高达1G！心想，在其之上再部署自己的服务，导出的镜像岂不肯定大于1G！虽然内网速度快，还是觉得镜像太大了。
 > 
 > 这次想docker化的服务是squid，hub上最新的版本是3.5，而squid最新版已经到4.10。并且，3.5版本的docker化squid的镜像【[sameersbn/squid](https://hub.docker.com/r/sameersbn/squid/)】只有45M，容量并不大。
